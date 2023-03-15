@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+
+html,
+body {
+	width: 100%;
+	height: auto;
+	background-color: rgb(28, 28, 28);
+}
+
+a {
+	cursor: pointer;
+}
+
+.container {
+	max-width: 1680px;
+	margin: 0 auto;
+	/* transform: translateX(50%); */
+	/* border: 1px solid red; */
+}
+
+.App {
+	/* margin: 0; */
+}

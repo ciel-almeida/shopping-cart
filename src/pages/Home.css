@@ -1,0 +1,8 @@
+.home {
+	margin: 2rem auto;
+	padding: 1rem;
+	max-width: 1640px;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(min(22rem, 100%), 1fr));
+	grid-template-rows: auto;
+}
