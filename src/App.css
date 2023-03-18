@@ -26,6 +26,31 @@ a {
 	/* border: 1px solid red; */
 }
 
-.App {
-	/* margin: 0; */
+.page-main__title {
+	margin-bottom: 3rem;
+	color: white;
+	position: relative;
+}
+
+.page-main__title::before {
+	content: '';
+	position: absolute;
+	transform: translateX(-50%);
+	bottom: -25%;
+	left: 50%;
+	height: 3px;
+	width: 180px;
+	background-color: rgb(102, 178, 254);
+}
+
+.page-main__title,
+.page-main__sub-title {
+	text-align: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-transform: uppercase;
+}
+
+.page-main__sub-title {
+	font-size: 1.4rem;
+	color: rgb(84, 84, 84);
 }

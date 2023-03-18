@@ -7,8 +7,6 @@ const ShopContext = createContext({});
 // 02 - Provider to wrapp the application and share the context
 export function ShopProvider({ children }) {
 	const [state, dispatch] = useReducer(shopReducer, shopInitialState);
-	// const [teste, setTeste] = useState(1999);
-	console.log(state);
 	return <ShopContext.Provider value={{ state, dispatch }}>{children}</ShopContext.Provider>;
 }
 

@@ -5,4 +5,9 @@
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(min(22rem, 100%), 1fr));
 	grid-template-rows: auto;
+	gap: 1.5rem;
+}
+
+.home-wrapper {
+	margin-top: 3rem;
 }

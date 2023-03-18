@@ -15,7 +15,7 @@ export const PRODUCTS = [
 		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fermentum.',
 		category: 'BOOK',
 		image: 'https://m.media-amazon.com/images/I/715iqCxo2aL.jpg',
-		inStock: 15,
+		inStock: 0,
 		rating: 5,
 		price: 19.99,
 	},

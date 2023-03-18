@@ -11,11 +11,15 @@ function Home() {
 	} = ShopState();
 	console.log(products);
 	return (
-		<main class="home">
-			{products.map(prod => (
-				<ProductCard product={prod} dispatch={dispatch} />
-			))}
-		</main>
+		<div className="home-wrapper">
+			<h1 className="page-main__title">Products</h1>
+			{products.length ? '' : <h3 className="page-main__sub-title">EMPTY</h3>}
+			<main className="home">
+				{products.map(prod => (
+					<ProductCard key={prod.id} product={prod} dispatch={dispatch} />
+				))}
+			</main>
+		</div>
 	);
 }
 
