@@ -11,3 +11,9 @@
 .home-wrapper {
 	margin-top: 3rem;
 }
+
+@media screen and (min-width: 800px) {
+	.page-main__sub-title {
+		grid-column: 1 / 3;
+	}
+}
